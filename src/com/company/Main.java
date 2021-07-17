@@ -31,7 +31,7 @@ public class Main {
 }
 
 
-// Below code is with out recursion, uncomment to use, also do not forget to comment upper code while using the below code.
+// Below code is with out recursion, uncomment to use, also do not forget to comment upper code (except import part) while using the below code.
 
 //class Main {
 //
@@ -60,7 +60,7 @@ public class Main {
 //        System.out.println("Enter the length of the array: ");
 //        int length = Sc.nextInt();
 //        int array[] = new int[length];
-//        System.out.println("Enter The array elements: ");
+//        System.out.println("Enter The array elements in increasing order: ");
 //        for(int i=0 ; i<length; i++){
 //            array[i]=Sc.nextInt();
 //        }
