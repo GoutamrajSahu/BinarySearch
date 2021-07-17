@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -39,7 +40,6 @@ public class Main {
 //        int left = 0;
 //        int right = array.length-1;
 //        while(left<=right){
-//            System.out.println("called");
 //            int mid = left + ((right-left)/2);
 //            if(array[mid] == SearchNumber){
 //                return true;
@@ -60,10 +60,11 @@ public class Main {
 //        System.out.println("Enter the length of the array: ");
 //        int length = Sc.nextInt();
 //        int array[] = new int[length];
-//        System.out.println("Enter The array elements in increasing order: ");
+//        System.out.println("Enter The array elements: ");
 //        for(int i=0 ; i<length; i++){
 //            array[i]=Sc.nextInt();
 //        }
+//        Arrays.sort(array);
 //        System.out.println("Enter The number for search: ");
 //        int num = Sc.nextInt();
 //        boolean isPresent = Search(array,num);
